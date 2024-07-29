@@ -1,5 +1,5 @@
 import xlsx from 'xlsx';
-import { searchGoogleMaps } from './index_one.js';
+import { searchGoogleMaps } from './webScrapperServices.js';
 
 const file = xlsx.readFile('Cereal_Products.xlsx')
 const data = file.Sheets['Sheet1']
